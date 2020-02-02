@@ -1,7 +1,7 @@
 {
   "name": "function-codemorphs",
   "version": "0.0.0-development",
-  "displayName": "@vscodeshift/function-codemorphs",
+  "displayName": "Function Codemorphs",
   "publisher": "vscodeshift",
   "description": "commands for refactoring functions",
   "engines": {
