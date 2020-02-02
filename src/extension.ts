@@ -1,17 +1,25 @@
 import * as vscode from 'vscode'
 import applyTransform from '@vscodeshift/apply-jscodeshift'
 
-const transform = (): string | void | null | undefined => {
-  // REPLACE ME
-}
-
 export function activate(context: vscode.ExtensionContext): void {
-  const disposable = vscode.commands.registerCommand(
-    'extension.YOUR.COMMAND.HERE',
-    () => applyTransform(transform)
+  context.subscriptions.push(
+    vscode.commands.registerCommand(
+      'extension.convertArrowFunctionBodyToBlockStatement',
+      () =>
+        applyTransform(
+          require('function-codemorphs/convertArrowFunctionBodyToBlockStatement')
+        )
+    )
   )
-
-  context.subscriptions.push(disposable)
+  context.subscriptions.push(
+    vscode.commands.registerCommand(
+      'extension.convertArrowFunctionBodyToExpression',
+      () =>
+        applyTransform(
+          require('function-codemorphs/convertArrowFunctionBodyToExpression')
+        )
+    )
+  )
 }
 
 export function deactivate(): void {} // eslint-disable-line @typescript-eslint/no-empty-function
