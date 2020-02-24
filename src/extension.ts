@@ -5,8 +5,8 @@ export function activate(context: vscode.ExtensionContext): void {
   context.subscriptions.push(
     vscode.commands.registerCommand(
       'extension.convertArrowFunctionBodyToBlockStatement',
-      () =>
-        applyTransform(
+      async () =>
+        await applyTransform(
           require('function-codemorphs/convertArrowFunctionBodyToBlockStatement')
         )
     )
@@ -14,8 +14,8 @@ export function activate(context: vscode.ExtensionContext): void {
   context.subscriptions.push(
     vscode.commands.registerCommand(
       'extension.convertArrowFunctionBodyToExpression',
-      () =>
-        applyTransform(
+      async () =>
+        await applyTransform(
           require('function-codemorphs/convertArrowFunctionBodyToExpression')
         )
     )
