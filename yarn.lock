@@ -3898,10 +3898,10 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
-function-codemorphs@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/function-codemorphs/-/function-codemorphs-1.0.0.tgz#273424d76b75bb11b64a2adc3d0cf853e42e7cd1"
-  integrity sha512-15W0sELfh4PgHCFtdTSwhYdIxnZ7aJAjaQ8dOABTcEcWTncYODtFtv9ABi5NvQnHW7JbhVojJj6HQ9AkqI9Jcg==
+function-codemorphs@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/function-codemorphs/-/function-codemorphs-1.1.0.tgz#930fc3e12fe957b728ca276d9140b7c15b767a01"
+  integrity sha512-E8rTBN5P1Z7IA8OFYTQpUW4sOcqCYpsb3d8m1ISbu2HcFJotTvGqDr+RvHW2Y6W5BxwGCy+PoX874cPPiD+f1g==
   dependencies:
     "@babel/runtime" "^7.1.5"
     jscodeshift-paths-in-range "^1.0.0"
