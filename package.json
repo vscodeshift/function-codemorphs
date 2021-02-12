@@ -169,7 +169,7 @@
   "dependencies": {
     "@babel/runtime": "^7.1.5",
     "@vscodeshift/apply-jscodeshift": "^1.0.12",
-    "function-codemorphs": "^1.1.0",
+    "function-codemorphs": "^1.2.0",
     "jscodeshift": "^0.7.0"
   },
   "renovate": {
